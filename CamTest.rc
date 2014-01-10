@@ -1,0 +1,338 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CamTest.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CamTest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CamTest"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "CamTest 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CAMTEST_DIALOG DIALOGEX 0, 0, 834, 511
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION 
+"FS智能车调试工具摄像组V1.2—海猪的淘宝店 http://xiaohaizhu.taobao.com"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CAM,"Static",SS_BITMAP,27,17,15,14
+    COMBOBOX        IDC_COM,729,19,50,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "串口号:",IDC_STATIC,694,24,29,15
+    PUSHBUTTON      "图像清零",IDC_BUTTON1,713,266,77,18
+    COMBOBOX        IDC_BAUD,729,46,50,72,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           " 波特率:",IDC_STATIC,691,49,32,17
+    PUSHBUTTON      "应用设置打开串口",IDC_BUTTON2,713,220,77,18,
+                    BS_MULTILINE
+    EDITTEXT        IDC_EDIT1,675,359,140,128,ES_MULTILINE
+    PUSHBUTTON      "关闭串口",IDC_BUTTON3,713,243,77,18
+    PUSHBUTTON      "退出程序",IDC_BUTTON4,713,312,77,18
+    GROUPBOX        "设置",IDC_STATIC,675,6,139,337
+    EDITTEXT        IDC_EDIT_LONG,728,72,50,12,ES_AUTOHSCROLL
+    RTEXT           "长：",IDC_STATIC,707,74,16,16
+    RTEXT           "宽：",IDC_STATIC,701,97,22,15
+    EDITTEXT        IDC_EDIT_WIDTH,728,93,50,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_BINARY,"Static",SS_BITMAP,275,18,15,14
+    RTEXT           "阈值1：",IDC_STATIC,690,119,33,9
+    EDITTEXT        IDC_EDIT_YUZHI,728,116,50,12,ES_AUTOHSCROLL
+    GROUPBOX        "原始图像",IDC_STATIC,19,7,232,235
+    GROUPBOX        "二值化图像1",IDC_STATIC,266,7,231,236
+    GROUPBOX        "实时参数显示",IDC_STATIC,517,7,134,236
+    LTEXT           "编码器脉冲",IDC_STATIC,527,26,49,15
+    EDITTEXT        IDC_EDIT_BIANMAQI,580,20,51,18,ES_AUTOHSCROLL
+    LTEXT           "电机PWM",IDC_STATIC,539,49,37,14
+    EDITTEXT        IDC_EDIT_DIANJI,580,46,51,18,ES_AUTOHSCROLL
+    LTEXT           "舵机PWM",IDC_STATIC,540,77,36,15
+    EDITTEXT        IDC_EDIT_DUOJI,580,74,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义1",IDC_STATIC,540,105,36,15
+    EDITTEXT        IDC_EDIT_Z1,580,101,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义2",IDC_STATIC,539,134,37,11
+    EDITTEXT        IDC_EDIT_Z2,580,130,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义3",IDC_STATIC,540,165,36,20
+    EDITTEXT        IDC_EDIT_Z3,580,159,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义4",IDC_STATIC,541,190,35,15
+    EDITTEXT        IDC_EDIT_Z4,580,186,51,18,ES_AUTOHSCROLL
+    CONTROL         "图像显示",IDC_CHECK_IMAGE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,711,181,76,14
+    CONTROL         "实时参数显示",IDC_CHECK_CANSHU,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,711,201,72,13
+    PUSHBUTTON      "新窗口绘图",IDC_NEW,545,215,77,18
+    GROUPBOX        "二值化图像3",IDC_STATIC,266,253,231,236
+    GROUPBOX        "二值化图像2",IDC_STATIC,20,253,231,236
+    RTEXT           "阈值2：",IDC_STATIC,689,139,34,9
+    RTEXT           "阈值3：",IDC_STATIC,689,160,34,9
+    EDITTEXT        IDC_EDIT_YUZHI2,728,137,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YUZHI3,728,158,50,12,ES_AUTOHSCROLL
+    GROUPBOX        "数据发送",IDC_STATIC,517,254,134,236
+    LTEXT           "电机PWM",IDC_STATIC,537,277,37,14
+    EDITTEXT        IDC_SEND_DIANJI,578,274,51,18,ES_AUTOHSCROLL
+    LTEXT           "舵机PWM",IDC_STATIC,538,305,36,15
+    EDITTEXT        IDC_SEND_DUOJI,578,302,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义1",IDC_STATIC,538,333,36,15
+    EDITTEXT        IDC_SEND_Z1,578,329,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义2",IDC_STATIC,537,362,37,11
+    EDITTEXT        IDC_SEND_Z2,578,358,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义3",IDC_STATIC,538,393,36,20
+    EDITTEXT        IDC_SEND_Z3,578,387,51,18,ES_AUTOHSCROLL
+    LTEXT           "自定义4",IDC_STATIC,539,418,35,15
+    EDITTEXT        IDC_SEND_Z4,578,414,51,18,ES_AUTOHSCROLL
+    PUSHBUTTON      "数据发送",IDC_BUTTON_SEND,559,449,51,18
+    PUSHBUTTON      "关于",IDC_ABOUT,713,289,77,18
+    LTEXT           "高级功能，敬请期待",IDC_STATIC,68,305,113,20
+    LTEXT           "高级功能，敬请期待",IDC_STATIC,328,304,113,20
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 841, 455
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 9, "宋体"
+BEGIN
+    GROUPBOX        "绘图设置",IDC_STATIC,692,14,130,201
+    PUSHBUTTON      "应用",IDC_BUTTON1,734,175,49,20
+    EDITTEXT        IDC_X,760,30,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DUOJIMIN,760,57,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DUOJIMAX,760,84,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIANJIMAX,760,111,44,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OUMUMAX,760,138,44,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "重新开始",IDC_REBEGIN,734,267,49,20
+    PUSHBUTTON      "停止绘图",IDC_STOP,734,235,49,20
+    PUSHBUTTON      "关闭窗口",IDC_CLOSE,734,298,49,20
+    CONTROL         "",IDC_STATIC_DUOJI,"Static",SS_BLACKFRAME,7,7,661,118
+    CONTROL         "",IDC_STATIC_DIANJIPWM,"Static",SS_BLACKFRAME,7,131,661,
+                    126
+    CONTROL         "",IDC_STATIC_OUMU,"Static",SS_BLACKFRAME,7,268,661,180
+    EDITTEXT        IDC_1,48,7,48,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_2,48,134,48,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_3,59,271,50,16,ES_AUTOHSCROLL
+    LTEXT           "△X",IDC_STATIC,724,34,15,9
+    LTEXT           "舵机MIN",IDC_STATIC,710,54,37,20
+    LTEXT           "舵机MAX",IDC_STATIC,712,82,43,19
+    LTEXT           "电机MAX",IDC_STATIC,712,114,31,12
+    LTEXT           "编码器MAX",IDC_STATIC,710,142,41,15
+    LTEXT           "舵机PWM",IDC_STATIC,15,9,32,16
+    LTEXT           "电机PWM",IDC_STATIC,13,136,32,16
+    LTEXT           "编码器速度",IDC_STATIC,13,274,42,15
+    LTEXT           "试用版不提供绘图功能 敬请原谅",IDC_STATIC,692,438,122,
+                    10
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 327, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "版权信息"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,165,166,61,18
+    PUSHBUTTON      "打开网址",IDC_BUTTON1,86,166,61,18
+    LTEXT           "本软件试用版功能有所限制，敬请原谅。",IDC_STATIC,61,19,
+                    141,16
+    LTEXT           "正版软件功能包括：",IDC_STATIC,61,39,141,16
+    LTEXT           "曲线绘图（速度pId调节等...）",IDC_STATIC,61,59,141,16
+    LTEXT           "简单二值话处理",IDC_STATIC,61,79,141,16
+    LTEXT           "支持正版，将是我开发新版本的动力！谢谢",IDC_STATIC,61,
+                    99,165,16
+    LTEXT           "如欲购买正版软件，请访问http://xiaohaizhu.taobao.com",
+                    IDC_STATIC,61,119,218,16
+    EDITTEXT        IDC_EDIT1,62,135,209,18,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CamTest Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CamTest\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CamTest.EXE\0"
+            VALUE "ProductName", "CamTest 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CAMTEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 827
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 504
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 834
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 448
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 320
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 CamTest(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\CamTest.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
