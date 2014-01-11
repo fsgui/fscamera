@@ -13,11 +13,11 @@ Class2=CCamTestDlg
 Class3=CAboutDlg
 
 ResourceCount=5
-Resource1=IDD_DIALOG1
+Resource1=IDD_CAMTEST_DIALOG
 Resource2=IDR_MAINFRAME
 Resource3=IDD_ABOUTBOX
 Class4=CState
-Resource4=IDD_CAMTEST_DIALOG
+Resource4=IDD_DIALOG1
 Class5=CMyAboutDlg
 Resource5=IDD_DIALOG2
 

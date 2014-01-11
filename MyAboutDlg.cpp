@@ -45,7 +45,7 @@ END_MESSAGE_MAP()
 
 void CMyAboutDlg::OnButton1() 
 {
-ShellExecute(NULL, NULL, _T("http://eecs.taobao.com"), NULL,NULL, SW_SHOWNORMAL);  
+ShellExecute(NULL, NULL, _T("http://item.taobao.com/item.htm?spm=a1z10.1.w4004-2292184176.5.VTgjq9&id=36924266342"), NULL,NULL, SW_SHOWNORMAL);  
 }
 
 BOOL CMyAboutDlg::OnInitDialog() 

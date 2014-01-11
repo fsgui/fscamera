@@ -7,7 +7,13 @@
 </h3>
 <h3>Command Lines</h3>
 Creating command line "rc.exe /l 0x804 /fo"Release/CamTest.res" /d "_DEBUG" "C:\test\fscamera\CamTest.rc"" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.tmp" with contents
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5E.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/CamTest.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /GZ /c 
+"C:\test\fscamera\MyAboutDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F.tmp" with contents
 [
 /nologo /subsystem:windows /incremental:yes /pdb:"Release/CamTest.pdb" /debug /machine:I386 /out:"Release/CamTest.exe" /pdbtype:sept 
 .\Release\CamTest.obj
@@ -19,10 +25,15 @@ Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.tmp" with cont
 .\Release\StdAfx.obj
 .\Release\CamTest.res
 ]
-Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.tmp"
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F.tmp"
 <h3>Output Window</h3>
 Compiling resources...
+Compiling...
+MyAboutDlg.cpp
 Linking...
+Creating command line "bscmake.exe /nologo /o"Release/CamTest.bsc"  .\Release\StdAfx.sbr .\Release\CamTest.sbr .\Release\CamTestDlg.sbr .\Release\md5.sbr .\Release\MyAboutDlg.sbr .\Release\SerialPort.sbr .\Release\State.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
 
 
 

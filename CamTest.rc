@@ -198,7 +198,7 @@ CAPTION "版权信息"
 FONT 10, "宋体"
 BEGIN
     DEFPUSHBUTTON   "确定",IDOK,165,166,61,18
-    PUSHBUTTON      "打开网址",IDC_BUTTON1,86,166,61,18
+    PUSHBUTTON      "设计教程",IDC_BUTTON1,86,166,61,18
     LTEXT           "本软件试用版功能有所限制，敬请原谅。",IDC_STATIC,61,19,
                     141,16
     LTEXT           "正版软件功能包括：",IDC_STATIC,61,39,141,16
