@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Chinese (中国) resources
+// Chinese (P.R.C.) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 #ifdef _WIN32
@@ -87,9 +87,8 @@ END
 IDD_CAMTEST_DIALOG DIALOGEX 0, 0, 834, 511
 STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
-CAPTION 
-"FS智能车调试工具摄像组V1.2—海猪的淘宝店 http://xiaohaizhu.taobao.com"
-FONT 9, "宋体", 0, 0, 0x1
+CAPTION "FS智能车调试工具摄像组V1.2—http://eecs.taobao.com"
+FONT 9, "宋体"
 BEGIN
     CONTROL         "",IDC_CAM,"Static",SS_BITMAP,27,17,15,14
     COMBOBOX        IDC_COM,729,19,50,61,CBS_DROPDOWN | CBS_SORT | 
@@ -207,7 +206,7 @@ BEGIN
     LTEXT           "简单二值话处理",IDC_STATIC,61,79,141,16
     LTEXT           "支持正版，将是我开发新版本的动力！谢谢",IDC_STATIC,61,
                     99,165,16
-    LTEXT           "如欲购买正版软件，请访问http://xiaohaizhu.taobao.com",
+    LTEXT           "如欲购买正版软件，请访问http://eecs.taobao.com",
                     IDC_STATIC,61,119,218,16
     EDITTEXT        IDC_EDIT1,62,135,209,18,ES_AUTOHSCROLL
 END
@@ -309,7 +308,7 @@ BEGIN
     IDS_ABOUTBOX            "关于 CamTest(&A)..."
 END
 
-#endif    // Chinese (中国) resources
+#endif    // Chinese (P.R.C.) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

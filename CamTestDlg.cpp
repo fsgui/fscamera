@@ -190,7 +190,7 @@ BOOL CCamTestDlg::OnInitDialog()
 	md5_right=1;//关闭加密
 	// md5_right=md5check();//加密
 	if(md5_right==0)
-	AfxGetMainWnd()-> SetWindowText( "FS智能车调试工具（摄像头试用版）——http://xiaohaizhu.taobao.com"); 
+	AfxGetMainWnd()-> SetWindowText( "FS智能车调试工具（摄像头试用版）——http://eecs.taobao.com"); 
 
 
 
